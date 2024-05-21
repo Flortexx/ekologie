@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekologické Technologie a Udržitelný Rozvoj</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">EcoTech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#solar">Solární Energie</a></li>
+                <li class="nav-item"><a class="nav-link" href="#wind">Větrná Energie</a></li>
+                <li class="nav-item"><a class="nav-link" href="#recycling">Recyklace</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Ekologické Technologie </h1>
+        <p class="lead">Objevte moderní technologie podporující udržitelnost a ochranu naší planety.</p>
+    </header>
+
+    <div class="container">
+        <div class="row" id="solar">
+            <div class="col-md-6">
+                <img src="https://th.bing.com/th/id/R.85dbc7836ff1c7e071b15a46e60811f1?rik=sI7ZnDIgjxvU2Q&pid=ImgRaw&r=0" class="img-fluid" alt="Solární energie" width="400">
+            </div>
+            <div class="col-md-6">
+                <h2>Solární Energie</h2>
+                <p>Solární energie využívá slunečního záření...</p>
+                <p>můžete ušetřit několik tísítek korun</p>
+                <button class="btn btn-success" onclick="showMore('solar')">Více</button>
+            </div>
+        </div>
+
+        <div class="row mt-5" id="wind">
+            <div class="col-md-6 order-md-2">
+                <img src="https://th.bing.com/th/id/OIP.JUyVHyo20XJhGRDtRrHR2wHaEx?rs=1&pid=ImgDetMain" class="img-fluid" alt="Větrná energie" width="400">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2>Větrná Energie</h2>
+                <p>Větrná energie je generována pomocí větrných turbín...</p>
+                <p>vítr je někdy pro nás duležity než si myslíme</p>
+                <button class="btn btn-success" onclick="showMore('wind')">Více</button>
+            </div>
+        </div>
+
+        <div class="row mt-5" id="recycling">
+            <div class="col-md-6">
+                <img src="https://lh3.googleusercontent.com/-esluzByQajY/YmOlRlCNaQI/AAAAAAAABX0/xtE7n-iY8rINlqTqqjdHaM96PYfOSwxjgCNcBGAsYHQ/s1600/1650697537896730-0.png" class="img-fluid" alt="Recyklace" width="400">
+            </div>
+            <div class="col-md-6">
+                <h2>Recyklace</h2>
+                <p>Recyklace je proces přeměny odpadu na nové materiály...</p>
+                <p>objevte s námy lepší místo</p>
+                <button class="btn btn-success" onclick="showMore('recycling')">Více</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p> 2024 EcoTech. Všechna práva vyhrazena.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

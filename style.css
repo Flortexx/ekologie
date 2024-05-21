@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    background: url() fixed no-repeat center/cover;
+   
+}
+
+.navbar-brand {
+    color: #28a745 !important;
+}
+
+.header {
+    background-color: #28a745;
+    color: white;
+}
+
+.jumbotron {
+    background: #e0f7e9;
+    color: #333;
+}
+
+h2 {
+    color: #28a745;
+}
+
+footer {
+    background-color: #67f4d853;
+    color: rgb(0, 0, 0);
+    padding: 4vh;
+    text-align: center;
+
+
+}
+
+.btn-success {
+    background-color: #45a3e7;
+    border: none;
+}
+
+
+.col-md-6{
+    padding-bottom: 2vh;
+}
+
+
